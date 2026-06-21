@@ -1,0 +1,35 @@
+# Ignore everything
+*
+
+# Keep this file
+!.gitignore
+
+# Keep the three directories
+!clone_thesisplots/
+!thesisplots/
+!x_e_work/
+
+# Ignore everything inside them by default
+clone_thesisplots/*
+thesisplots/*
+x_e_work/*
+
+# Keep subdirectories
+!clone_thesisplots/**/
+!thesisplots/**/
+!x_e_work/**/
+
+# Keep notebooks
+!clone_thesisplots/**/*.ipynb
+!thesisplots/**/*.ipynb
+!x_e_work/**/*.ipynb
+
+# Keep SVGs
+!clone_thesisplots/**/*.svg
+!thesisplots/**/*.svg
+!x_e_work/**/*.svg
+
+# Keep PDFs
+!clone_thesisplots/**/*.pdf
+!thesisplots/**/*.pdf
+!x_e_work/**/*.pdf
